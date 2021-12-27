@@ -1,12 +1,14 @@
+import { GlobalStyled } from "../src/styles/global"
+import { ScoreTable } from "./components/ScoreTable";
+import { User } from "./components/User/User";
+
 function App() {
   return (
-    <div>
-      <header>
-        <p>
-          Aprova UnB
-        </p>
-      </header>
-    </div>
+    <>
+      <GlobalStyled/>
+      <ScoreTable/>
+      <User/>
+    </>
   );
 }
 
