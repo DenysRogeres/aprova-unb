@@ -1,5 +1,5 @@
 import  userImg  from "../../assets/user.svg";
-import { Background } from "../ScoreTable/styles";
+import { Background } from "./styles";
 
 export function User() {
     return (
