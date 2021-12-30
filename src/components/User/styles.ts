@@ -11,8 +11,8 @@ export const Background = styled.div`
 
     width: 50vw;
 
-    /* .user-icon {
-        width: 50%;
+    .user-icon {
+        /* width: 80%; */
         padding-left: 8rem;
-    } */
+    }
 `
